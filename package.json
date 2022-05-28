@@ -1,0 +1,29 @@
+{
+  "name": "react-filter-element",
+  "version": "1.0.0",
+  "description": "use this package to easily filter out html elements in react",
+  "main": "react-filter-element.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ripon876/react-filter-element.git"
+  },
+  "keywords": [
+    "filter",
+    "react-filter",
+    "filter",
+    "html"
+  ],
+  "author": "MD Ripon Islam",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ripon876/react-filter-element/issues"
+  },
+  "homepage": "https://github.com/Ripon876/react-filter-element#readme",
+    "peerDependencies": {
+    "react": "^18.1.0",
+    "react-dom": "^18.0.0"
+  }
+}

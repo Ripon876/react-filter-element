@@ -21,6 +21,7 @@ useEffect(() => {
 
                 if(key === '*'){
              	 items[i].style.display  = 'block';
+             	 
              	}else{
              		s ? items[i].style.display  = 'block' :  items[i].style.display = "none";
              	}   

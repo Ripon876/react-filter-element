@@ -10,9 +10,9 @@ Installation
                     
 > `$ npm i react-filter-element`
 
-###Using ->
+###### Using ->
 
-####Import the module
+###### Import the module
 
 
 Import `useFilterElement ` hook from the module
@@ -36,10 +36,7 @@ const parent = useRef(null);
 const [filter,items] = useFilterElement(parent); // calling the hook with the parent
  
 
-####HTML 
-
-```html
-<div  ref={parent}></div>
+<div  ref={parent}></div> // html
 ```
 you will get back `filter` and `items` from the hook. ` filter` refers to the main function to use the filter and ` items`  contains the childs 
 
@@ -70,7 +67,7 @@ const parent = useRef(null);
 const [filter,items] = useFilterElement(parent); // calling the hook with the parent
 
 
-```html
+// html
 
 	<button className="btn filterBtn" onClick={() => filter('bird')}>Birds</button>
 	<button className="btn filterBtn" onClick={() => filter('fish')}>Fish</button>

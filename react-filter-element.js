@@ -2,7 +2,7 @@ import React,{useState,useEffect} from 'react';
 
 
 
-function useElementFilter(elem) {
+function useFilterElement(elem) {
 
 
 const [items, setItems] = useState([]);
@@ -35,4 +35,4 @@ return [filter,items];
 
 }
 
-export default useElementFilter;
+export default useFilterElement;

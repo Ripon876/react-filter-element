@@ -2,7 +2,7 @@
   "name": "react-filter-element",
   "version": "1.0.0",
   "description": "use this package to easily filter out html elements in react",
-  "main": "react-filter-element.js",
+  "main": "react-filter-element.min.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

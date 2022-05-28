@@ -42,17 +42,17 @@ you will get back `filter` and `items` from the hook. ` filter` refers to the ma
 
 Now call the function with a key name as argument and  set the key name as a class of the childs ( you can also pass `*` as  key , it will show every child)
 
-	<button className="btn filterBtn" onClick={() => filter('bird')}>Birds</button>
-	<button className="btn filterBtn" onClick={() => filter('fish')}>Fish</button>
+```html
+<button  onClick={() => filter('bird')}>Birds</button>
+<button  onClick={() => filter('fish')}>Fish</button>
 	
-	
-	<div className=" bird">
+<div className="bird">
 		<h1>Bird</h1>
-	</div>
-	<div className=" fish">
+</div>
+<div className="fish">
 		<h1>Fish</h1>
-	</div>
-	
+</div>
+```
 	
 
 
@@ -69,8 +69,8 @@ const [filter,items] = useFilterElement(parent); // calling the hook with the pa
 
 // html
 
-	<button className="btn filterBtn" onClick={() => filter('bird')}>Birds</button>
-	<button className="btn filterBtn" onClick={() => filter('fish')}>Fish</button>
+	<button  onClick={() => filter('bird')}>Birds</button>
+	<button  onClick={() => filter('fish')}>Fish</button>
 	
 <div  ref={parent}> 
 		<div className="bird">
